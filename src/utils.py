@@ -27,12 +27,18 @@ class FileHandler:
             text=''
             with pdfplumber.open(file_obj) as pdf:
                 for page in pdf.pages:
-                    text+= page.extract_text() or ""
+                    page_text=page.extract_text()
+                    if page_text:
+                        text+=page_text+'\n'
+
                     tables=page.extract_tables()
                     for table in tables:
                         for row in table:
-                            text+= "\t".join(row)+"\n"
-            return text if text else "Error:Could not retrieve text"
+                            row_text='\t'.join([cell if cell is not None else '' for cell in row])
+                            text+=row_text+'\n'
+
+            return text if text.strip() else 'Error: Could not retrieve text'
+            
         except Exception as e:
             raise Custom_Exception(e,sys)
     

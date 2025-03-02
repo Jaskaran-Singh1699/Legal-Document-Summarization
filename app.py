@@ -1,8 +1,13 @@
 import streamlit as st
+import os
 import sys
 from src.utils import FileHandler
 from src.summarizer import  ResponseGeneration
 from src.logger import logging
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 def main():
     logging.info('Entered main app.py')
@@ -59,7 +64,9 @@ def summarize_text(text):
     logging.info('Entered summarize_text app.py')
     with st.spinner("Generating Summary..."):
         try:
-            summary=ResponseGeneration.GeminiResponse(prompt=text)
+            api_k=os.getenv('GOOGLE_API_KEY')
+            response_generator=ResponseGeneration(api_key=api_k)
+            summary=response_generator.GeminiResponse(prompt=text)
 
             st.subheader('Summary:')
             st.success(summary)

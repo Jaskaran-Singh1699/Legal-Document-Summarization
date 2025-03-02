@@ -1,0 +1,13 @@
+[2025-03-03 00:52:45,231] 13 root - INFO - Entered main app.py
+[2025-03-03 00:52:49,814] 13 root - INFO - Entered main app.py
+[2025-03-03 00:52:49,816] 30 root - INFO - Entered indentify_file_type app.py
+[2025-03-03 00:52:49,817] 45 root - INFO - Entered process_uploaded_file app.py
+[2025-03-03 00:52:49,817] 71 root - INFO - Entered read_file utils
+[2025-03-03 00:52:49,817] 16 root - INFO - Entered read_pdf utils
+[2025-03-03 00:52:52,508] 13 root - INFO - Entered main app.py
+[2025-03-03 00:52:52,510] 30 root - INFO - Entered indentify_file_type app.py
+[2025-03-03 00:52:52,510] 45 root - INFO - Entered process_uploaded_file app.py
+[2025-03-03 00:52:52,511] 71 root - INFO - Entered read_file utils
+[2025-03-03 00:52:52,511] 16 root - INFO - Entered read_pdf utils
+[2025-03-03 00:52:52,916] 64 root - INFO - Entered summarize_text app.py
+[2025-03-03 00:52:52,918] 23 root - INFO - Entered Gemini Response method

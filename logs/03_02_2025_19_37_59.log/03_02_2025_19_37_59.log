@@ -1,0 +1,12 @@
+[2025-03-02 19:38:03,126] 8 root - INFO - Entered main app.py
+[2025-03-02 19:38:11,285] 8 root - INFO - Entered main app.py
+[2025-03-02 19:38:11,287] 25 root - INFO - Entered indentify_file_type app.py
+[2025-03-02 19:38:11,288] 40 root - INFO - Entered process_uploaded_file app.py
+[2025-03-02 19:38:11,288] 65 root - INFO - Entered read_file utils
+[2025-03-02 19:38:11,288] 43 root - INFO - Entered read_docx utils
+[2025-03-02 19:38:19,998] 8 root - INFO - Entered main app.py
+[2025-03-02 19:38:20,000] 25 root - INFO - Entered indentify_file_type app.py
+[2025-03-02 19:38:20,000] 40 root - INFO - Entered process_uploaded_file app.py
+[2025-03-02 19:38:20,000] 65 root - INFO - Entered read_file utils
+[2025-03-02 19:38:20,027] 43 root - INFO - Entered read_docx utils
+[2025-03-02 19:38:20,037] 59 root - INFO - Entered summarize_text app.py

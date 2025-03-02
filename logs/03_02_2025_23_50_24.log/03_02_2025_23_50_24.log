@@ -1,0 +1,17 @@
+[2025-03-02 23:50:26,417] 9 root - INFO - Entered main app.py
+[2025-03-02 23:50:31,802] 9 root - INFO - Entered main app.py
+[2025-03-02 23:50:31,804] 26 root - INFO - Entered indentify_file_type app.py
+[2025-03-02 23:50:31,805] 41 root - INFO - Entered process_uploaded_file app.py
+[2025-03-02 23:50:31,806] 65 root - INFO - Entered read_file utils
+[2025-03-02 23:50:31,806] 43 root - INFO - Entered read_docx utils
+[2025-03-02 23:50:34,008] 9 root - INFO - Entered main app.py
+[2025-03-02 23:50:34,010] 26 root - INFO - Entered indentify_file_type app.py
+[2025-03-02 23:50:34,010] 41 root - INFO - Entered process_uploaded_file app.py
+[2025-03-02 23:50:34,011] 65 root - INFO - Entered read_file utils
+[2025-03-02 23:50:34,012] 43 root - INFO - Entered read_docx utils
+[2025-03-02 23:50:34,021] 60 root - INFO - Entered summarize_text app.py
+[2025-03-02 23:50:34,022] 19 root - INFO - Entered Gemini Response method
+[2025-03-02 23:50:37,035] 142 google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2025-03-02 23:50:40,999] 142 google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2025-03-02 23:50:45,991] 142 google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2025-03-02 23:50:45,991] 338 google.auth._default - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.

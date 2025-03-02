@@ -5,15 +5,19 @@ import sys
 import google.generativeai as genai
 from src.logger import logging
 from src.exception import Custom_Exception
+from dotenv import load_dotenv
 
-
-
+load_dotenv()
 class ResponseGeneration:
 
     def __init__(self,api_key,model='gemini-1.5-flash-latest'):
-        self.api_key=api_key
+        self.api_key=os.getenv('GOOGLE_API_KEY')
+        if not self.api_key:
+            raise ValueError('API Key not found! Set GOOGLE_API_KEY environment variable.')
+
         self.model=model
-        genai.configure(api_key=self.api_key)    
+        genai.configure(api_key=self.api_key) 
+           
 
     def GeminiResponse(self,prompt):
         logging.info("Entered Gemini Response method")
